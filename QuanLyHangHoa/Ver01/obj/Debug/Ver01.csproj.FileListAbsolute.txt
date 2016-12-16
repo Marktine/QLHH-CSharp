@@ -1,0 +1,44 @@
+C:\Users\Mark\Desktop\QuanLyHangHoa\Ver01\bin\Debug\Ver01.exe.config
+C:\Users\Mark\Desktop\QuanLyHangHoa\Ver01\bin\Debug\Ver01.exe
+C:\Users\Mark\Desktop\QuanLyHangHoa\Ver01\bin\Debug\Ver01.pdb
+C:\Users\Mark\Desktop\QuanLyHangHoa\Ver01\bin\Debug\MetroFramework.Design.dll
+C:\Users\Mark\Desktop\QuanLyHangHoa\Ver01\bin\Debug\MetroFramework.dll
+C:\Users\Mark\Desktop\QuanLyHangHoa\Ver01\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Mark\Desktop\QuanLyHangHoa\Ver01\obj\Debug\Ver01.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Desktop\QuanLyHangHoa\Ver01\obj\Debug\Ver01.Form1.resources
+C:\Users\Mark\Desktop\QuanLyHangHoa\Ver01\obj\Debug\Ver01.Properties.Resources.resources
+C:\Users\Mark\Desktop\QuanLyHangHoa\Ver01\obj\Debug\Ver01.csproj.GenerateResource.Cache
+C:\Users\Mark\Desktop\QuanLyHangHoa\Ver01\obj\Debug\Ver01.exe
+C:\Users\Mark\Desktop\QuanLyHangHoa\Ver01\obj\Debug\Ver01.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyHangHoa\Ver01\bin\Debug\Ver01.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyHangHoa\Ver01\obj\Debug\Ver01.exe
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyHangHoa\Ver01\obj\Debug\Ver01.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyHangHoa\Ver01\bin\Debug\Ver01.exe
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyHangHoa\Ver01\bin\Debug\Ver01.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyHangHoa\Ver01\bin\Debug\MetroFramework.Design.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyHangHoa\Ver01\bin\Debug\MetroFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyHangHoa\Ver01\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyHangHoa\Ver01\obj\Debug\Ver01.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyHangHoa\Ver01\obj\Debug\Ver01.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyHangHoa\Ver01\obj\Debug\Ver01.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyHangHoa\Ver01\obj\Debug\Ver01.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyHangHoa\Ver01\obj\Debug\Ver01.frmKhachHang.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyHangHoa\Ver01\obj\Debug\Ver01.frmHangHoa.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyHangHoa\Ver01\obj\Debug\Ver01.frmHoaDon.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyHangHoa\Ver01\obj\Debug\Ver01.frmNhanVien.resources
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\Ver01\bin\Debug\Ver01.exe.config
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\Ver01\obj\Debug\Ver01.exe
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\Ver01\obj\Debug\Ver01.pdb
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\Ver01\bin\Debug\Ver01.exe
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\Ver01\bin\Debug\Ver01.pdb
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\Ver01\bin\Debug\MetroFramework.Design.dll
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\Ver01\bin\Debug\MetroFramework.dll
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\Ver01\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\Ver01\obj\Debug\Ver01.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\Ver01\obj\Debug\Ver01.Form1.resources
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\Ver01\obj\Debug\Ver01.frmHangHoa.resources
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\Ver01\obj\Debug\Ver01.frmHoaDon.resources
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\Ver01\obj\Debug\Ver01.frmKhachHang.resources
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\Ver01\obj\Debug\Ver01.frmNhanVien.resources
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\Ver01\obj\Debug\Ver01.Properties.Resources.resources
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\Ver01\obj\Debug\Ver01.csproj.GenerateResource.Cache
