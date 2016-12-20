@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BUS;
+using DTO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,6 +20,24 @@ namespace Ver01
         }
 
         private void frmNhanVien_Load(object sender, EventArgs e)
+        {
+            foreach (NhanVien nv in NhanVienBUS.GetAll())
+            {
+                dtgNhanVien.Rows.Add(nv.MaNV, nv.TenNV, nv.GioiTinh, nv.NgaySinh.Value.Date, nv.DiaChi, nv.SDT);
+            }
+        }
+
+        private void mTThem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void mTXoa_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mTSua_Click(object sender, EventArgs e)
         {
 
         }

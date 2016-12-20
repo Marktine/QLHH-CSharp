@@ -1,0 +1,10 @@
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DTO\bin\Debug\DTO.dll.config
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DTO\bin\Debug\DTO.dll
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DTO\bin\Debug\DTO.pdb
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DTO\bin\Debug\EntityFramework.dll
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DTO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DTO\bin\Debug\EntityFramework.xml
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DTO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DTO\obj\Debug\DTO.dll
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DTO\obj\Debug\DTO.pdb

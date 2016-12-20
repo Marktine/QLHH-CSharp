@@ -37,7 +37,8 @@ namespace Ver01
 
         private void mtNV_Click(object sender, EventArgs e)
         {
-
+            frmNhanVien c = new frmNhanVien();
+            c.ShowDialog();
         }
 
         private void mTKH_Click(object sender, EventArgs e)
