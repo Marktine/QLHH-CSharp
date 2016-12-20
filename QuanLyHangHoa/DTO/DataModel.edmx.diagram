@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f03a744d60ae4f25ab0d3abc70ca36a1" Name="Diagram1">
+        <EntityTypeShape EntityType="QLBHModel.CTHD" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBHModel.HangHoa" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBHModel.HoaDon" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBHModel.KhachHang" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBHModel.NhanVien" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <AssociationConnector Association="QLBHModel.FK_CTHD_HD" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBHModel.FK_CTHD_HH" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBHModel.FK_HH_NV" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBHModel.FK_HD_KH" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBHModel.FK_HD_NV" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

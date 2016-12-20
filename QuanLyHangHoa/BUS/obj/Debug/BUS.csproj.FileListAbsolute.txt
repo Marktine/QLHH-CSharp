@@ -1,0 +1,11 @@
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\BUS\bin\Debug\BUS.dll
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\BUS\bin\Debug\BUS.pdb
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\BUS\bin\Debug\DAO.dll
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\BUS\bin\Debug\DTO.dll
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\BUS\bin\Debug\EntityFramework.dll
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\BUS\bin\Debug\DAO.pdb
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\BUS\bin\Debug\DTO.pdb
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\BUS\bin\Debug\EntityFramework.xml
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\BUS\obj\Debug\BUS.dll
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\BUS\obj\Debug\BUS.pdb

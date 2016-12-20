@@ -1,0 +1,11 @@
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DAO\bin\Debug\DAO.dll
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DAO\bin\Debug\DAO.pdb
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DAO\bin\Debug\DTO.dll
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DAO\bin\Debug\EntityFramework.dll
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DAO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DAO\bin\Debug\DTO.pdb
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DAO\bin\Debug\EntityFramework.xml
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DAO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DAO\obj\Debug\DAO.dll
+C:\Users\Mark\Desktop\View-C-MetroFW-meta\View-C#-MetroFW meta\QuanLyHangHoa\DAO\obj\Debug\DAO.pdb
