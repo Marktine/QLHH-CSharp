@@ -31,5 +31,10 @@ namespace Ver01
         {
 
         }
+
+        private void frmHoaDon_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+        }
     }
 }

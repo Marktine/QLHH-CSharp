@@ -52,7 +52,7 @@ namespace DAO
             using (QLBHEntities db = new QLBHEntities())
             {
                 return (from c in db.HangHoas
-                        where c.TenHang == TenHH && c.TinhTrang == true
+                        where c.TenHang.Contains(TenHH)
                         select c).ToList();
             }
         }

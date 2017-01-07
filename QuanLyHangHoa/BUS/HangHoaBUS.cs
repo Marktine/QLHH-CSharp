@@ -13,7 +13,7 @@ namespace BUS
         static HangHoaBUS()
         {
             repo = new HangHoaRepo();
-        }
+        }   
 
         public static List<HangHoa> GetAll()
         {
