@@ -22,17 +22,5 @@ namespace Ver01.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0")]
-        public float LoiNhuan {
-            get {
-                return ((float)(this["LoiNhuan"]));
-            }
-            set {
-                this["LoiNhuan"] = value;
-            }
-        }
     }
 }

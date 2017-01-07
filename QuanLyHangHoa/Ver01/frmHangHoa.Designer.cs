@@ -53,23 +53,6 @@
             this.txtMaHH = new MetroFramework.Controls.MetroTextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dtgHangHoa = new MetroFramework.Controls.MetroGrid();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.txtSearch = new MetroFramework.Controls.MetroTextBox();
-            this.btnThem = new MetroFramework.Controls.MetroTile();
-            this.btnXoa = new MetroFramework.Controls.MetroTile();
-            this.btnSua = new MetroFramework.Controls.MetroTile();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnSearch = new MetroFramework.Controls.MetroButton();
-            this.cmbSearch = new System.Windows.Forms.ComboBox();
-            this.btnCapNhat = new MetroFramework.Controls.MetroTile();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.metroButton2 = new MetroFramework.Controls.MetroButton();
-            this.btnCapNhatLoiNhuan = new MetroFramework.Controls.MetroButton();
-            this.txtSLMin = new MetroFramework.Controls.MetroTextBox();
-            this.txtLoiNhuan = new MetroFramework.Controls.MetroTextBox();
-            this.metroLabel12 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel11 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.maHangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenHangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.loaiHHDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -80,6 +63,23 @@
             this.ngayNhapDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.soLuongDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ngNhapHangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.txtSearch = new MetroFramework.Controls.MetroTextBox();
+            this.btnThem = new MetroFramework.Controls.MetroTile();
+            this.btnXoa = new MetroFramework.Controls.MetroTile();
+            this.btnSua = new MetroFramework.Controls.MetroTile();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnSearch = new MetroFramework.Controls.MetroButton();
+            this.cmbSearch = new System.Windows.Forms.ComboBox();
+            this.btnCapNhat = new MetroFramework.Controls.MetroTile();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.btnCapNhatMin = new MetroFramework.Controls.MetroButton();
+            this.btnCapNhatLoiNhuan = new MetroFramework.Controls.MetroButton();
+            this.txtSLMin = new MetroFramework.Controls.MetroTextBox();
+            this.txtLoiNhuan = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel12 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel11 = new MetroFramework.Controls.MetroLabel();
             this.grNhapHangHoa.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.hangHoaBindingSource)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -118,7 +118,7 @@
             // dtpNgayNhap
             // 
             this.dtpNgayNhap.AllowDrop = true;
-            this.dtpNgayNhap.CustomFormat = "dd/MM/yyyy";
+            this.dtpNgayNhap.CustomFormat = "MM/dd/yyyy";
             this.dtpNgayNhap.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.hangHoaBindingSource, "NgayNhap", true));
             this.dtpNgayNhap.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpNgayNhap.Location = new System.Drawing.Point(701, 57);
@@ -438,6 +438,9 @@
             // 
             // dtgHangHoa
             // 
+            this.dtgHangHoa.AllowUserToAddRows = false;
+            this.dtgHangHoa.AllowUserToDeleteRows = false;
+            this.dtgHangHoa.AllowUserToResizeColumns = false;
             this.dtgHangHoa.AllowUserToResizeRows = false;
             this.dtgHangHoa.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
@@ -492,11 +495,85 @@
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dtgHangHoa.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.dtgHangHoa.RowHeadersVisible = false;
             this.dtgHangHoa.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dtgHangHoa.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtgHangHoa.Size = new System.Drawing.Size(911, 263);
             this.dtgHangHoa.Style = MetroFramework.MetroColorStyle.Silver;
             this.dtgHangHoa.TabIndex = 0;
+            this.dtgHangHoa.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgHangHoa_CellClick);
+            // 
+            // maHangDataGridViewTextBoxColumn
+            // 
+            this.maHangDataGridViewTextBoxColumn.DataPropertyName = "MaHang";
+            this.maHangDataGridViewTextBoxColumn.HeaderText = "Mã Hàng";
+            this.maHangDataGridViewTextBoxColumn.Name = "maHangDataGridViewTextBoxColumn";
+            this.maHangDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // tenHangDataGridViewTextBoxColumn
+            // 
+            this.tenHangDataGridViewTextBoxColumn.DataPropertyName = "TenHang";
+            this.tenHangDataGridViewTextBoxColumn.HeaderText = "Tên hàng";
+            this.tenHangDataGridViewTextBoxColumn.Name = "tenHangDataGridViewTextBoxColumn";
+            this.tenHangDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // loaiHHDataGridViewTextBoxColumn
+            // 
+            this.loaiHHDataGridViewTextBoxColumn.DataPropertyName = "LoaiHH";
+            this.loaiHHDataGridViewTextBoxColumn.HeaderText = "Loại Hàng";
+            this.loaiHHDataGridViewTextBoxColumn.Name = "loaiHHDataGridViewTextBoxColumn";
+            this.loaiHHDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // tenNSXDataGridViewTextBoxColumn
+            // 
+            this.tenNSXDataGridViewTextBoxColumn.DataPropertyName = "TenNSX";
+            this.tenNSXDataGridViewTextBoxColumn.HeaderText = "Tên NSX";
+            this.tenNSXDataGridViewTextBoxColumn.Name = "tenNSXDataGridViewTextBoxColumn";
+            this.tenNSXDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // giaNhapDataGridViewTextBoxColumn
+            // 
+            this.giaNhapDataGridViewTextBoxColumn.DataPropertyName = "GiaNhap";
+            this.giaNhapDataGridViewTextBoxColumn.HeaderText = "Giá nhập (1 món)";
+            this.giaNhapDataGridViewTextBoxColumn.Name = "giaNhapDataGridViewTextBoxColumn";
+            this.giaNhapDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // loiNhuanDataGridViewTextBoxColumn
+            // 
+            this.loiNhuanDataGridViewTextBoxColumn.DataPropertyName = "LoiNhuan";
+            this.loiNhuanDataGridViewTextBoxColumn.HeaderText = "Lợi nhuận (1 món)";
+            this.loiNhuanDataGridViewTextBoxColumn.Name = "loiNhuanDataGridViewTextBoxColumn";
+            this.loiNhuanDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // donGiaDataGridViewTextBoxColumn
+            // 
+            this.donGiaDataGridViewTextBoxColumn.DataPropertyName = "DonGia";
+            this.donGiaDataGridViewTextBoxColumn.HeaderText = "Đơn giá (1 món)";
+            this.donGiaDataGridViewTextBoxColumn.Name = "donGiaDataGridViewTextBoxColumn";
+            this.donGiaDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // ngayNhapDataGridViewTextBoxColumn
+            // 
+            this.ngayNhapDataGridViewTextBoxColumn.DataPropertyName = "NgayNhap";
+            dataGridViewCellStyle2.Format = "dd/MM/yyyy";
+            this.ngayNhapDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle2;
+            this.ngayNhapDataGridViewTextBoxColumn.HeaderText = "Ngày nhập";
+            this.ngayNhapDataGridViewTextBoxColumn.Name = "ngayNhapDataGridViewTextBoxColumn";
+            this.ngayNhapDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // soLuongDataGridViewTextBoxColumn
+            // 
+            this.soLuongDataGridViewTextBoxColumn.DataPropertyName = "SoLuong";
+            this.soLuongDataGridViewTextBoxColumn.HeaderText = "Số lượng";
+            this.soLuongDataGridViewTextBoxColumn.Name = "soLuongDataGridViewTextBoxColumn";
+            this.soLuongDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // ngNhapHangDataGridViewTextBoxColumn
+            // 
+            this.ngNhapHangDataGridViewTextBoxColumn.DataPropertyName = "NgNhapHang";
+            this.ngNhapHangDataGridViewTextBoxColumn.HeaderText = "Người nhập hàng";
+            this.ngNhapHangDataGridViewTextBoxColumn.Name = "ngNhapHangDataGridViewTextBoxColumn";
+            this.ngNhapHangDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // metroLabel1
             // 
@@ -634,7 +711,7 @@
             this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox4.Controls.Add(this.metroLabel2);
-            this.groupBox4.Controls.Add(this.metroButton2);
+            this.groupBox4.Controls.Add(this.btnCapNhatMin);
             this.groupBox4.Controls.Add(this.btnCapNhatLoiNhuan);
             this.groupBox4.Controls.Add(this.txtSLMin);
             this.groupBox4.Controls.Add(this.txtLoiNhuan);
@@ -647,14 +724,24 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Cập nhật phụ";
             // 
-            // metroButton2
+            // metroLabel2
             // 
-            this.metroButton2.Location = new System.Drawing.Point(813, 17);
-            this.metroButton2.Name = "metroButton2";
-            this.metroButton2.Size = new System.Drawing.Size(92, 23);
-            this.metroButton2.TabIndex = 5;
-            this.metroButton2.Text = "Cập nhật Min";
-            this.metroButton2.UseSelectable = true;
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.Location = new System.Drawing.Point(185, 21);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(20, 19);
+            this.metroLabel2.TabIndex = 6;
+            this.metroLabel2.Text = "%";
+            // 
+            // btnCapNhatMin
+            // 
+            this.btnCapNhatMin.Location = new System.Drawing.Point(813, 17);
+            this.btnCapNhatMin.Name = "btnCapNhatMin";
+            this.btnCapNhatMin.Size = new System.Drawing.Size(92, 23);
+            this.btnCapNhatMin.TabIndex = 5;
+            this.btnCapNhatMin.Text = "Cập nhật Min";
+            this.btnCapNhatMin.UseSelectable = true;
+            this.btnCapNhatMin.Click += new System.EventHandler(this.btnCapNhatMin_Click);
             // 
             // btnCapNhatLoiNhuan
             // 
@@ -680,6 +767,8 @@
             this.txtSLMin.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtSLMin.CustomButton.UseSelectable = true;
             this.txtSLMin.CustomButton.Visible = false;
+            this.txtSLMin.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.hangHoaBindingSource, "SoLuongMin", true));
+            this.txtSLMin.IconRight = true;
             this.txtSLMin.Lines = new string[0];
             this.txtSLMin.Location = new System.Drawing.Point(617, 17);
             this.txtSLMin.MaxLength = 32767;
@@ -690,6 +779,7 @@
             this.txtSLMin.SelectionLength = 0;
             this.txtSLMin.SelectionStart = 0;
             this.txtSLMin.ShortcutsEnabled = true;
+            this.txtSLMin.ShowClearButton = true;
             this.txtSLMin.Size = new System.Drawing.Size(157, 23);
             this.txtSLMin.TabIndex = 3;
             this.txtSLMin.UseSelectable = true;
@@ -744,87 +834,6 @@
             this.metroLabel11.TabIndex = 0;
             this.metroLabel11.Text = "Lợi Nhuận";
             // 
-            // metroLabel2
-            // 
-            this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(185, 21);
-            this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(20, 19);
-            this.metroLabel2.TabIndex = 6;
-            this.metroLabel2.Text = "%";
-            // 
-            // maHangDataGridViewTextBoxColumn
-            // 
-            this.maHangDataGridViewTextBoxColumn.DataPropertyName = "MaHang";
-            this.maHangDataGridViewTextBoxColumn.HeaderText = "Mã Hàng";
-            this.maHangDataGridViewTextBoxColumn.Name = "maHangDataGridViewTextBoxColumn";
-            this.maHangDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // tenHangDataGridViewTextBoxColumn
-            // 
-            this.tenHangDataGridViewTextBoxColumn.DataPropertyName = "TenHang";
-            this.tenHangDataGridViewTextBoxColumn.HeaderText = "Tên hàng";
-            this.tenHangDataGridViewTextBoxColumn.Name = "tenHangDataGridViewTextBoxColumn";
-            this.tenHangDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // loaiHHDataGridViewTextBoxColumn
-            // 
-            this.loaiHHDataGridViewTextBoxColumn.DataPropertyName = "LoaiHH";
-            this.loaiHHDataGridViewTextBoxColumn.HeaderText = "Loại Hàng";
-            this.loaiHHDataGridViewTextBoxColumn.Name = "loaiHHDataGridViewTextBoxColumn";
-            this.loaiHHDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // tenNSXDataGridViewTextBoxColumn
-            // 
-            this.tenNSXDataGridViewTextBoxColumn.DataPropertyName = "TenNSX";
-            this.tenNSXDataGridViewTextBoxColumn.HeaderText = "Tên NSX";
-            this.tenNSXDataGridViewTextBoxColumn.Name = "tenNSXDataGridViewTextBoxColumn";
-            this.tenNSXDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // giaNhapDataGridViewTextBoxColumn
-            // 
-            this.giaNhapDataGridViewTextBoxColumn.DataPropertyName = "GiaNhap";
-            this.giaNhapDataGridViewTextBoxColumn.HeaderText = "Giá nhập (1 món)";
-            this.giaNhapDataGridViewTextBoxColumn.Name = "giaNhapDataGridViewTextBoxColumn";
-            this.giaNhapDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // loiNhuanDataGridViewTextBoxColumn
-            // 
-            this.loiNhuanDataGridViewTextBoxColumn.DataPropertyName = "LoiNhuan";
-            this.loiNhuanDataGridViewTextBoxColumn.HeaderText = "Lợi nhuận (1 món)";
-            this.loiNhuanDataGridViewTextBoxColumn.Name = "loiNhuanDataGridViewTextBoxColumn";
-            this.loiNhuanDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // donGiaDataGridViewTextBoxColumn
-            // 
-            this.donGiaDataGridViewTextBoxColumn.DataPropertyName = "DonGia";
-            this.donGiaDataGridViewTextBoxColumn.HeaderText = "Đơn giá (1 món)";
-            this.donGiaDataGridViewTextBoxColumn.Name = "donGiaDataGridViewTextBoxColumn";
-            this.donGiaDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // ngayNhapDataGridViewTextBoxColumn
-            // 
-            this.ngayNhapDataGridViewTextBoxColumn.DataPropertyName = "NgayNhap";
-            dataGridViewCellStyle2.Format = "dd/MM/yyyy";
-            this.ngayNhapDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle2;
-            this.ngayNhapDataGridViewTextBoxColumn.HeaderText = "Ngày nhập";
-            this.ngayNhapDataGridViewTextBoxColumn.Name = "ngayNhapDataGridViewTextBoxColumn";
-            this.ngayNhapDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // soLuongDataGridViewTextBoxColumn
-            // 
-            this.soLuongDataGridViewTextBoxColumn.DataPropertyName = "SoLuong";
-            this.soLuongDataGridViewTextBoxColumn.HeaderText = "Số lượng";
-            this.soLuongDataGridViewTextBoxColumn.Name = "soLuongDataGridViewTextBoxColumn";
-            this.soLuongDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // ngNhapHangDataGridViewTextBoxColumn
-            // 
-            this.ngNhapHangDataGridViewTextBoxColumn.DataPropertyName = "NgNhapHang";
-            this.ngNhapHangDataGridViewTextBoxColumn.HeaderText = "Người nhập hàng";
-            this.ngNhapHangDataGridViewTextBoxColumn.Name = "ngNhapHangDataGridViewTextBoxColumn";
-            this.ngNhapHangDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
             // frmHangHoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -843,6 +852,7 @@
             this.Style = MetroFramework.MetroColorStyle.Black;
             this.Text = "Danh mục hàng hóa";
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmHangHoa_FormClosing);
             this.Load += new System.EventHandler(this.frmHangHoa_Load);
             this.grNhapHangHoa.ResumeLayout(false);
             this.grNhapHangHoa.PerformLayout();
@@ -890,7 +900,7 @@
         private MetroFramework.Controls.MetroTextBox txtLoiNhuan;
         private MetroFramework.Controls.MetroLabel metroLabel12;
         private MetroFramework.Controls.MetroLabel metroLabel11;
-        private MetroFramework.Controls.MetroButton metroButton2;
+        private MetroFramework.Controls.MetroButton btnCapNhatMin;
         private MetroFramework.Controls.MetroButton btnCapNhatLoiNhuan;
         private System.Windows.Forms.BindingSource hangHoaBindingSource;
         private MetroFramework.Controls.MetroButton btnSearch;

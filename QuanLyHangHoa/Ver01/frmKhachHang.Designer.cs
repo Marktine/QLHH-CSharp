@@ -28,64 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.metroTextBox6 = new MetroFramework.Controls.MetroTextBox();
+            this.txtSDT = new MetroFramework.Controls.MetroTextBox();
+            this.khachHangBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
-            this.metroDateTime1 = new MetroFramework.Controls.MetroDateTime();
-            this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
+            this.dtpNgaySinh = new MetroFramework.Controls.MetroDateTime();
+            this.cmbGioiTinh = new MetroFramework.Controls.MetroComboBox();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.metroTextBox4 = new MetroFramework.Controls.MetroTextBox();
-            this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
-            this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
-            this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
+            this.txtDiaChi = new MetroFramework.Controls.MetroTextBox();
+            this.txtCMND = new MetroFramework.Controls.MetroTextBox();
+            this.txtTenKhachHang = new MetroFramework.Controls.MetroTextBox();
+            this.txtMaKhachHang = new MetroFramework.Controls.MetroTextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.metroGrid1 = new MetroFramework.Controls.MetroGrid();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.metroTile1 = new MetroFramework.Controls.MetroTile();
-            this.metroTile2 = new MetroFramework.Controls.MetroTile();
-            this.metroTile3 = new MetroFramework.Controls.MetroTile();
-            this.metroComboBox2 = new MetroFramework.Controls.MetroComboBox();
-            this.metroTextBox5 = new MetroFramework.Controls.MetroTextBox();
+            this.dgvKhachHang = new MetroFramework.Controls.MetroGrid();
+            this.maKHDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenKHDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmndDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sDTDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gioiTinhDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ngaySinhDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.diaChiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.diemTichLuyDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.loaiTheDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tinhTrangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mtThem = new MetroFramework.Controls.MetroTile();
+            this.mtXoa = new MetroFramework.Controls.MetroTile();
+            this.mtSua = new MetroFramework.Controls.MetroTile();
+            this.cmbCate = new MetroFramework.Controls.MetroComboBox();
+            this.txtSearch = new MetroFramework.Controls.MetroTextBox();
             this.mbtnSearch = new MetroFramework.Controls.MetroButton();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.khachHangBindingSource)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvKhachHang)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.metroTextBox6);
+            this.groupBox1.Controls.Add(this.txtSDT);
             this.groupBox1.Controls.Add(this.metroLabel7);
-            this.groupBox1.Controls.Add(this.metroDateTime1);
-            this.groupBox1.Controls.Add(this.metroComboBox1);
+            this.groupBox1.Controls.Add(this.dtpNgaySinh);
+            this.groupBox1.Controls.Add(this.cmbGioiTinh);
             this.groupBox1.Controls.Add(this.metroLabel6);
             this.groupBox1.Controls.Add(this.metroLabel5);
             this.groupBox1.Controls.Add(this.metroLabel4);
             this.groupBox1.Controls.Add(this.metroLabel3);
             this.groupBox1.Controls.Add(this.metroLabel2);
             this.groupBox1.Controls.Add(this.metroLabel1);
-            this.groupBox1.Controls.Add(this.metroTextBox4);
-            this.groupBox1.Controls.Add(this.metroTextBox3);
-            this.groupBox1.Controls.Add(this.metroTextBox2);
-            this.groupBox1.Controls.Add(this.metroTextBox1);
+            this.groupBox1.Controls.Add(this.txtDiaChi);
+            this.groupBox1.Controls.Add(this.txtCMND);
+            this.groupBox1.Controls.Add(this.txtTenKhachHang);
+            this.groupBox1.Controls.Add(this.txtMaKhachHang);
             this.groupBox1.Location = new System.Drawing.Point(10, 77);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(825, 136);
@@ -93,35 +98,40 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin khách hàng";
             // 
-            // metroTextBox6
+            // txtSDT
             // 
             // 
             // 
             // 
-            this.metroTextBox6.CustomButton.Image = null;
-            this.metroTextBox6.CustomButton.Location = new System.Drawing.Point(127, 1);
-            this.metroTextBox6.CustomButton.Name = "";
-            this.metroTextBox6.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.metroTextBox6.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox6.CustomButton.TabIndex = 1;
-            this.metroTextBox6.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox6.CustomButton.UseSelectable = true;
-            this.metroTextBox6.CustomButton.Visible = false;
-            this.metroTextBox6.Lines = new string[0];
-            this.metroTextBox6.Location = new System.Drawing.Point(118, 100);
-            this.metroTextBox6.MaxLength = 32767;
-            this.metroTextBox6.Name = "metroTextBox6";
-            this.metroTextBox6.PasswordChar = '\0';
-            this.metroTextBox6.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox6.SelectedText = "";
-            this.metroTextBox6.SelectionLength = 0;
-            this.metroTextBox6.SelectionStart = 0;
-            this.metroTextBox6.ShortcutsEnabled = true;
-            this.metroTextBox6.Size = new System.Drawing.Size(149, 23);
-            this.metroTextBox6.TabIndex = 13;
-            this.metroTextBox6.UseSelectable = true;
-            this.metroTextBox6.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox6.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtSDT.CustomButton.Image = null;
+            this.txtSDT.CustomButton.Location = new System.Drawing.Point(127, 1);
+            this.txtSDT.CustomButton.Name = "";
+            this.txtSDT.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtSDT.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtSDT.CustomButton.TabIndex = 1;
+            this.txtSDT.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtSDT.CustomButton.UseSelectable = true;
+            this.txtSDT.CustomButton.Visible = false;
+            this.txtSDT.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "SDT", true));
+            this.txtSDT.Lines = new string[0];
+            this.txtSDT.Location = new System.Drawing.Point(118, 100);
+            this.txtSDT.MaxLength = 32767;
+            this.txtSDT.Name = "txtSDT";
+            this.txtSDT.PasswordChar = '\0';
+            this.txtSDT.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtSDT.SelectedText = "";
+            this.txtSDT.SelectionLength = 0;
+            this.txtSDT.SelectionStart = 0;
+            this.txtSDT.ShortcutsEnabled = true;
+            this.txtSDT.Size = new System.Drawing.Size(149, 23);
+            this.txtSDT.TabIndex = 13;
+            this.txtSDT.UseSelectable = true;
+            this.txtSDT.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtSDT.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // khachHangBindingSource
+            // 
+            this.khachHangBindingSource.DataSource = typeof(DTO.KhachHang);
             // 
             // metroLabel7
             // 
@@ -132,25 +142,27 @@
             this.metroLabel7.TabIndex = 12;
             this.metroLabel7.Text = "Số điện thoại";
             // 
-            // metroDateTime1
+            // dtpNgaySinh
             // 
-            this.metroDateTime1.CustomFormat = "dd/MM/yyyy";
-            this.metroDateTime1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.metroDateTime1.Location = new System.Drawing.Point(621, 23);
-            this.metroDateTime1.MinimumSize = new System.Drawing.Size(0, 29);
-            this.metroDateTime1.Name = "metroDateTime1";
-            this.metroDateTime1.Size = new System.Drawing.Size(193, 29);
-            this.metroDateTime1.TabIndex = 11;
+            this.dtpNgaySinh.CustomFormat = "MM/dd/yyyy";
+            this.dtpNgaySinh.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "NgaySinh", true));
+            this.dtpNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpNgaySinh.Location = new System.Drawing.Point(621, 23);
+            this.dtpNgaySinh.MinimumSize = new System.Drawing.Size(0, 29);
+            this.dtpNgaySinh.Name = "dtpNgaySinh";
+            this.dtpNgaySinh.Size = new System.Drawing.Size(193, 29);
+            this.dtpNgaySinh.TabIndex = 11;
             // 
-            // metroComboBox1
+            // cmbGioiTinh
             // 
-            this.metroComboBox1.FormattingEnabled = true;
-            this.metroComboBox1.ItemHeight = 23;
-            this.metroComboBox1.Location = new System.Drawing.Point(118, 66);
-            this.metroComboBox1.Name = "metroComboBox1";
-            this.metroComboBox1.Size = new System.Drawing.Size(84, 29);
-            this.metroComboBox1.TabIndex = 10;
-            this.metroComboBox1.UseSelectable = true;
+            this.cmbGioiTinh.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "GioiTinh", true));
+            this.cmbGioiTinh.FormattingEnabled = true;
+            this.cmbGioiTinh.ItemHeight = 23;
+            this.cmbGioiTinh.Location = new System.Drawing.Point(118, 66);
+            this.cmbGioiTinh.Name = "cmbGioiTinh";
+            this.cmbGioiTinh.Size = new System.Drawing.Size(84, 29);
+            this.cmbGioiTinh.TabIndex = 10;
+            this.cmbGioiTinh.UseSelectable = true;
             // 
             // metroLabel6
             // 
@@ -173,7 +185,7 @@
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(13, 76);
+            this.metroLabel4.Location = new System.Drawing.Point(13, 72);
             this.metroLabel4.Name = "metroLabel4";
             this.metroLabel4.Size = new System.Drawing.Size(57, 19);
             this.metroLabel4.TabIndex = 7;
@@ -206,132 +218,136 @@
             this.metroLabel1.TabIndex = 4;
             this.metroLabel1.Text = "Mã khách hàng";
             // 
-            // metroTextBox4
+            // txtDiaChi
             // 
             // 
             // 
             // 
-            this.metroTextBox4.CustomButton.Image = null;
-            this.metroTextBox4.CustomButton.Location = new System.Drawing.Point(171, 1);
-            this.metroTextBox4.CustomButton.Name = "";
-            this.metroTextBox4.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.metroTextBox4.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox4.CustomButton.TabIndex = 1;
-            this.metroTextBox4.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox4.CustomButton.UseSelectable = true;
-            this.metroTextBox4.CustomButton.Visible = false;
-            this.metroTextBox4.Lines = new string[0];
-            this.metroTextBox4.Location = new System.Drawing.Point(621, 72);
-            this.metroTextBox4.MaxLength = 32767;
-            this.metroTextBox4.Name = "metroTextBox4";
-            this.metroTextBox4.PasswordChar = '\0';
-            this.metroTextBox4.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox4.SelectedText = "";
-            this.metroTextBox4.SelectionLength = 0;
-            this.metroTextBox4.SelectionStart = 0;
-            this.metroTextBox4.ShortcutsEnabled = true;
-            this.metroTextBox4.Size = new System.Drawing.Size(193, 23);
-            this.metroTextBox4.TabIndex = 3;
-            this.metroTextBox4.UseSelectable = true;
-            this.metroTextBox4.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox4.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtDiaChi.CustomButton.Image = null;
+            this.txtDiaChi.CustomButton.Location = new System.Drawing.Point(171, 1);
+            this.txtDiaChi.CustomButton.Name = "";
+            this.txtDiaChi.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtDiaChi.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtDiaChi.CustomButton.TabIndex = 1;
+            this.txtDiaChi.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtDiaChi.CustomButton.UseSelectable = true;
+            this.txtDiaChi.CustomButton.Visible = false;
+            this.txtDiaChi.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "DiaChi", true));
+            this.txtDiaChi.Lines = new string[0];
+            this.txtDiaChi.Location = new System.Drawing.Point(621, 72);
+            this.txtDiaChi.MaxLength = 32767;
+            this.txtDiaChi.Name = "txtDiaChi";
+            this.txtDiaChi.PasswordChar = '\0';
+            this.txtDiaChi.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtDiaChi.SelectedText = "";
+            this.txtDiaChi.SelectionLength = 0;
+            this.txtDiaChi.SelectionStart = 0;
+            this.txtDiaChi.ShortcutsEnabled = true;
+            this.txtDiaChi.Size = new System.Drawing.Size(193, 23);
+            this.txtDiaChi.TabIndex = 3;
+            this.txtDiaChi.UseSelectable = true;
+            this.txtDiaChi.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtDiaChi.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // metroTextBox3
-            // 
-            // 
-            // 
-            // 
-            this.metroTextBox3.CustomButton.Image = null;
-            this.metroTextBox3.CustomButton.Location = new System.Drawing.Point(139, 1);
-            this.metroTextBox3.CustomButton.Name = "";
-            this.metroTextBox3.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.metroTextBox3.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox3.CustomButton.TabIndex = 1;
-            this.metroTextBox3.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox3.CustomButton.UseSelectable = true;
-            this.metroTextBox3.CustomButton.Visible = false;
-            this.metroTextBox3.Lines = new string[0];
-            this.metroTextBox3.Location = new System.Drawing.Point(361, 72);
-            this.metroTextBox3.MaxLength = 32767;
-            this.metroTextBox3.Name = "metroTextBox3";
-            this.metroTextBox3.PasswordChar = '\0';
-            this.metroTextBox3.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox3.SelectedText = "";
-            this.metroTextBox3.SelectionLength = 0;
-            this.metroTextBox3.SelectionStart = 0;
-            this.metroTextBox3.ShortcutsEnabled = true;
-            this.metroTextBox3.Size = new System.Drawing.Size(161, 23);
-            this.metroTextBox3.TabIndex = 2;
-            this.metroTextBox3.UseSelectable = true;
-            this.metroTextBox3.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox3.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroTextBox2
+            // txtCMND
             // 
             // 
             // 
             // 
-            this.metroTextBox2.CustomButton.Image = null;
-            this.metroTextBox2.CustomButton.Location = new System.Drawing.Point(139, 1);
-            this.metroTextBox2.CustomButton.Name = "";
-            this.metroTextBox2.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.metroTextBox2.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox2.CustomButton.TabIndex = 1;
-            this.metroTextBox2.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox2.CustomButton.UseSelectable = true;
-            this.metroTextBox2.CustomButton.Visible = false;
-            this.metroTextBox2.Lines = new string[0];
-            this.metroTextBox2.Location = new System.Drawing.Point(361, 29);
-            this.metroTextBox2.MaxLength = 32767;
-            this.metroTextBox2.Name = "metroTextBox2";
-            this.metroTextBox2.PasswordChar = '\0';
-            this.metroTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox2.SelectedText = "";
-            this.metroTextBox2.SelectionLength = 0;
-            this.metroTextBox2.SelectionStart = 0;
-            this.metroTextBox2.ShortcutsEnabled = true;
-            this.metroTextBox2.Size = new System.Drawing.Size(161, 23);
-            this.metroTextBox2.TabIndex = 1;
-            this.metroTextBox2.UseSelectable = true;
-            this.metroTextBox2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtCMND.CustomButton.Image = null;
+            this.txtCMND.CustomButton.Location = new System.Drawing.Point(139, 1);
+            this.txtCMND.CustomButton.Name = "";
+            this.txtCMND.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtCMND.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtCMND.CustomButton.TabIndex = 1;
+            this.txtCMND.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtCMND.CustomButton.UseSelectable = true;
+            this.txtCMND.CustomButton.Visible = false;
+            this.txtCMND.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "Cmnd", true));
+            this.txtCMND.Lines = new string[0];
+            this.txtCMND.Location = new System.Drawing.Point(361, 72);
+            this.txtCMND.MaxLength = 32767;
+            this.txtCMND.Name = "txtCMND";
+            this.txtCMND.PasswordChar = '\0';
+            this.txtCMND.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtCMND.SelectedText = "";
+            this.txtCMND.SelectionLength = 0;
+            this.txtCMND.SelectionStart = 0;
+            this.txtCMND.ShortcutsEnabled = true;
+            this.txtCMND.Size = new System.Drawing.Size(161, 23);
+            this.txtCMND.TabIndex = 2;
+            this.txtCMND.UseSelectable = true;
+            this.txtCMND.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtCMND.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // metroTextBox1
+            // txtTenKhachHang
             // 
             // 
             // 
             // 
-            this.metroTextBox1.CustomButton.Image = null;
-            this.metroTextBox1.CustomButton.Location = new System.Drawing.Point(82, 1);
-            this.metroTextBox1.CustomButton.Name = "";
-            this.metroTextBox1.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.metroTextBox1.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox1.CustomButton.TabIndex = 1;
-            this.metroTextBox1.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox1.CustomButton.UseSelectable = true;
-            this.metroTextBox1.CustomButton.Visible = false;
-            this.metroTextBox1.Lines = new string[0];
-            this.metroTextBox1.Location = new System.Drawing.Point(118, 29);
-            this.metroTextBox1.MaxLength = 32767;
-            this.metroTextBox1.Name = "metroTextBox1";
-            this.metroTextBox1.PasswordChar = '\0';
-            this.metroTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox1.SelectedText = "";
-            this.metroTextBox1.SelectionLength = 0;
-            this.metroTextBox1.SelectionStart = 0;
-            this.metroTextBox1.ShortcutsEnabled = true;
-            this.metroTextBox1.Size = new System.Drawing.Size(104, 23);
-            this.metroTextBox1.TabIndex = 0;
-            this.metroTextBox1.UseSelectable = true;
-            this.metroTextBox1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtTenKhachHang.CustomButton.Image = null;
+            this.txtTenKhachHang.CustomButton.Location = new System.Drawing.Point(139, 1);
+            this.txtTenKhachHang.CustomButton.Name = "";
+            this.txtTenKhachHang.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtTenKhachHang.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtTenKhachHang.CustomButton.TabIndex = 1;
+            this.txtTenKhachHang.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtTenKhachHang.CustomButton.UseSelectable = true;
+            this.txtTenKhachHang.CustomButton.Visible = false;
+            this.txtTenKhachHang.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "TenKH", true));
+            this.txtTenKhachHang.Lines = new string[0];
+            this.txtTenKhachHang.Location = new System.Drawing.Point(361, 29);
+            this.txtTenKhachHang.MaxLength = 32767;
+            this.txtTenKhachHang.Name = "txtTenKhachHang";
+            this.txtTenKhachHang.PasswordChar = '\0';
+            this.txtTenKhachHang.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtTenKhachHang.SelectedText = "";
+            this.txtTenKhachHang.SelectionLength = 0;
+            this.txtTenKhachHang.SelectionStart = 0;
+            this.txtTenKhachHang.ShortcutsEnabled = true;
+            this.txtTenKhachHang.Size = new System.Drawing.Size(161, 23);
+            this.txtTenKhachHang.TabIndex = 1;
+            this.txtTenKhachHang.UseSelectable = true;
+            this.txtTenKhachHang.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtTenKhachHang.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // txtMaKhachHang
+            // 
+            // 
+            // 
+            // 
+            this.txtMaKhachHang.CustomButton.Image = null;
+            this.txtMaKhachHang.CustomButton.Location = new System.Drawing.Point(82, 1);
+            this.txtMaKhachHang.CustomButton.Name = "";
+            this.txtMaKhachHang.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtMaKhachHang.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtMaKhachHang.CustomButton.TabIndex = 1;
+            this.txtMaKhachHang.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtMaKhachHang.CustomButton.UseSelectable = true;
+            this.txtMaKhachHang.CustomButton.Visible = false;
+            this.txtMaKhachHang.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.khachHangBindingSource, "MaKH", true));
+            this.txtMaKhachHang.Lines = new string[0];
+            this.txtMaKhachHang.Location = new System.Drawing.Point(118, 29);
+            this.txtMaKhachHang.MaxLength = 32767;
+            this.txtMaKhachHang.Name = "txtMaKhachHang";
+            this.txtMaKhachHang.PasswordChar = '\0';
+            this.txtMaKhachHang.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtMaKhachHang.SelectedText = "";
+            this.txtMaKhachHang.SelectionLength = 0;
+            this.txtMaKhachHang.SelectionStart = 0;
+            this.txtMaKhachHang.ShortcutsEnabled = true;
+            this.txtMaKhachHang.Size = new System.Drawing.Size(104, 23);
+            this.txtMaKhachHang.TabIndex = 0;
+            this.txtMaKhachHang.UseSelectable = true;
+            this.txtMaKhachHang.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtMaKhachHang.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // groupBox2
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox2.Controls.Add(this.metroGrid1);
+            this.groupBox2.Controls.Add(this.dgvKhachHang);
             this.groupBox2.Location = new System.Drawing.Point(10, 265);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(824, 155);
@@ -339,17 +355,19 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách khách hàng";
             // 
-            // metroGrid1
+            // dgvKhachHang
             // 
-            this.metroGrid1.AllowUserToResizeRows = false;
-            this.metroGrid1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.dgvKhachHang.AllowUserToAddRows = false;
+            this.dgvKhachHang.AllowUserToResizeRows = false;
+            this.dgvKhachHang.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.metroGrid1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.metroGrid1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.metroGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.metroGrid1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.metroGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgvKhachHang.AutoGenerateColumns = false;
+            this.dgvKhachHang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvKhachHang.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.dgvKhachHang.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvKhachHang.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.dgvKhachHang.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
@@ -357,185 +375,210 @@
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.metroGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.metroGrid1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column8,
-            this.Column3,
-            this.Column4,
-            this.Column9,
-            this.Column5,
-            this.Column6,
-            this.Column7});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.metroGrid1.DefaultCellStyle = dataGridViewCellStyle2;
-            this.metroGrid1.EnableHeadersVisualStyles = false;
-            this.metroGrid1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.metroGrid1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.metroGrid1.Location = new System.Drawing.Point(0, 20);
-            this.metroGrid1.Name = "metroGrid1";
-            this.metroGrid1.ReadOnly = true;
-            this.metroGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgvKhachHang.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvKhachHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvKhachHang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.maKHDataGridViewTextBoxColumn,
+            this.tenKHDataGridViewTextBoxColumn,
+            this.cmndDataGridViewTextBoxColumn,
+            this.sDTDataGridViewTextBoxColumn,
+            this.gioiTinhDataGridViewTextBoxColumn,
+            this.ngaySinhDataGridViewTextBoxColumn,
+            this.diaChiDataGridViewTextBoxColumn,
+            this.diemTichLuyDataGridViewTextBoxColumn,
+            this.loaiTheDataGridViewTextBoxColumn,
+            this.tinhTrangDataGridViewTextBoxColumn});
+            this.dgvKhachHang.DataSource = this.khachHangBindingSource;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.metroGrid1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.metroGrid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.metroGrid1.Size = new System.Drawing.Size(824, 134);
-            this.metroGrid1.Style = MetroFramework.MetroColorStyle.Silver;
-            this.metroGrid1.TabIndex = 0;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvKhachHang.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvKhachHang.EnableHeadersVisualStyles = false;
+            this.dgvKhachHang.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.dgvKhachHang.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.dgvKhachHang.Location = new System.Drawing.Point(0, 20);
+            this.dgvKhachHang.Name = "dgvKhachHang";
+            this.dgvKhachHang.ReadOnly = true;
+            this.dgvKhachHang.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvKhachHang.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.dgvKhachHang.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.dgvKhachHang.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvKhachHang.Size = new System.Drawing.Size(824, 134);
+            this.dgvKhachHang.Style = MetroFramework.MetroColorStyle.Silver;
+            this.dgvKhachHang.TabIndex = 0;
+            this.dgvKhachHang.Click += new System.EventHandler(this.dgvKhachHang_Click);
             // 
-            // Column1
+            // maKHDataGridViewTextBoxColumn
             // 
-            this.Column1.HeaderText = "Mã KH";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
+            this.maKHDataGridViewTextBoxColumn.DataPropertyName = "MaKH";
+            this.maKHDataGridViewTextBoxColumn.HeaderText = "Mã KH";
+            this.maKHDataGridViewTextBoxColumn.Name = "maKHDataGridViewTextBoxColumn";
+            this.maKHDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // Column2
+            // tenKHDataGridViewTextBoxColumn
             // 
-            this.Column2.HeaderText = "Họ Tên";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
+            this.tenKHDataGridViewTextBoxColumn.DataPropertyName = "TenKH";
+            this.tenKHDataGridViewTextBoxColumn.HeaderText = "Tên KH";
+            this.tenKHDataGridViewTextBoxColumn.Name = "tenKHDataGridViewTextBoxColumn";
+            this.tenKHDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // Column8
+            // cmndDataGridViewTextBoxColumn
             // 
-            this.Column8.HeaderText = "Cmnd";
-            this.Column8.Name = "Column8";
-            this.Column8.ReadOnly = true;
+            this.cmndDataGridViewTextBoxColumn.DataPropertyName = "Cmnd";
+            this.cmndDataGridViewTextBoxColumn.HeaderText = "CMND";
+            this.cmndDataGridViewTextBoxColumn.Name = "cmndDataGridViewTextBoxColumn";
+            this.cmndDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // Column3
+            // sDTDataGridViewTextBoxColumn
             // 
-            this.Column3.HeaderText = "Giới tính";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
+            this.sDTDataGridViewTextBoxColumn.DataPropertyName = "SDT";
+            this.sDTDataGridViewTextBoxColumn.HeaderText = "SĐT";
+            this.sDTDataGridViewTextBoxColumn.Name = "sDTDataGridViewTextBoxColumn";
+            this.sDTDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // Column4
+            // gioiTinhDataGridViewTextBoxColumn
             // 
-            this.Column4.HeaderText = "Ngày sinh";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
+            this.gioiTinhDataGridViewTextBoxColumn.DataPropertyName = "GioiTinh";
+            this.gioiTinhDataGridViewTextBoxColumn.HeaderText = "Giới tính";
+            this.gioiTinhDataGridViewTextBoxColumn.Name = "gioiTinhDataGridViewTextBoxColumn";
+            this.gioiTinhDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // Column9
+            // ngaySinhDataGridViewTextBoxColumn
             // 
-            this.Column9.HeaderText = "Địa chỉ";
-            this.Column9.Name = "Column9";
-            this.Column9.ReadOnly = true;
+            this.ngaySinhDataGridViewTextBoxColumn.DataPropertyName = "NgaySinh";
+            dataGridViewCellStyle2.Format = "MM/dd/yyyy";
+            this.ngaySinhDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle2;
+            this.ngaySinhDataGridViewTextBoxColumn.HeaderText = "Ngày sinh";
+            this.ngaySinhDataGridViewTextBoxColumn.Name = "ngaySinhDataGridViewTextBoxColumn";
+            this.ngaySinhDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // Column5
+            // diaChiDataGridViewTextBoxColumn
             // 
-            this.Column5.HeaderText = "Số ĐT";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
+            this.diaChiDataGridViewTextBoxColumn.DataPropertyName = "DiaChi";
+            this.diaChiDataGridViewTextBoxColumn.HeaderText = "Địa chỉ";
+            this.diaChiDataGridViewTextBoxColumn.Name = "diaChiDataGridViewTextBoxColumn";
+            this.diaChiDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // Column6
+            // diemTichLuyDataGridViewTextBoxColumn
             // 
-            this.Column6.HeaderText = "Điểm";
-            this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
+            this.diemTichLuyDataGridViewTextBoxColumn.DataPropertyName = "DiemTichLuy";
+            this.diemTichLuyDataGridViewTextBoxColumn.HeaderText = "Điểm tích lũy";
+            this.diemTichLuyDataGridViewTextBoxColumn.Name = "diemTichLuyDataGridViewTextBoxColumn";
+            this.diemTichLuyDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // Column7
+            // loaiTheDataGridViewTextBoxColumn
             // 
-            this.Column7.HeaderText = "Loại thẻ";
-            this.Column7.Name = "Column7";
-            this.Column7.ReadOnly = true;
+            this.loaiTheDataGridViewTextBoxColumn.DataPropertyName = "LoaiThe";
+            this.loaiTheDataGridViewTextBoxColumn.HeaderText = "Loại thẻ";
+            this.loaiTheDataGridViewTextBoxColumn.Name = "loaiTheDataGridViewTextBoxColumn";
+            this.loaiTheDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // metroTile1
+            // tinhTrangDataGridViewTextBoxColumn
             // 
-            this.metroTile1.ActiveControl = null;
-            this.metroTile1.Location = new System.Drawing.Point(506, 219);
-            this.metroTile1.Name = "metroTile1";
-            this.metroTile1.Size = new System.Drawing.Size(84, 43);
-            this.metroTile1.Style = MetroFramework.MetroColorStyle.Silver;
-            this.metroTile1.TabIndex = 5;
-            this.metroTile1.Text = "Thêm";
-            this.metroTile1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTile1.UseSelectable = true;
+            this.tinhTrangDataGridViewTextBoxColumn.DataPropertyName = "TinhTrang";
+            this.tinhTrangDataGridViewTextBoxColumn.HeaderText = "Tình trạng";
+            this.tinhTrangDataGridViewTextBoxColumn.Name = "tinhTrangDataGridViewTextBoxColumn";
+            this.tinhTrangDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // metroTile2
+            // mtThem
             // 
-            this.metroTile2.ActiveControl = null;
-            this.metroTile2.Location = new System.Drawing.Point(631, 219);
-            this.metroTile2.Name = "metroTile2";
-            this.metroTile2.Size = new System.Drawing.Size(84, 43);
-            this.metroTile2.Style = MetroFramework.MetroColorStyle.Silver;
-            this.metroTile2.TabIndex = 6;
-            this.metroTile2.Text = "Xóa";
-            this.metroTile2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTile2.UseSelectable = true;
+            this.mtThem.ActiveControl = null;
+            this.mtThem.Location = new System.Drawing.Point(506, 219);
+            this.mtThem.Name = "mtThem";
+            this.mtThem.Size = new System.Drawing.Size(84, 43);
+            this.mtThem.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mtThem.TabIndex = 5;
+            this.mtThem.Text = "Thêm";
+            this.mtThem.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.mtThem.UseSelectable = true;
+            this.mtThem.Click += new System.EventHandler(this.mtThem_Click);
             // 
-            // metroTile3
+            // mtXoa
             // 
-            this.metroTile3.ActiveControl = null;
-            this.metroTile3.Location = new System.Drawing.Point(751, 219);
-            this.metroTile3.Name = "metroTile3";
-            this.metroTile3.Size = new System.Drawing.Size(84, 43);
-            this.metroTile3.Style = MetroFramework.MetroColorStyle.Silver;
-            this.metroTile3.TabIndex = 7;
-            this.metroTile3.Text = "Sửa";
-            this.metroTile3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTile3.UseSelectable = true;
+            this.mtXoa.ActiveControl = null;
+            this.mtXoa.Location = new System.Drawing.Point(631, 219);
+            this.mtXoa.Name = "mtXoa";
+            this.mtXoa.Size = new System.Drawing.Size(84, 43);
+            this.mtXoa.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mtXoa.TabIndex = 6;
+            this.mtXoa.Text = "Xóa";
+            this.mtXoa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.mtXoa.UseSelectable = true;
+            this.mtXoa.Click += new System.EventHandler(this.mtXoa_Click);
             // 
-            // metroComboBox2
+            // mtSua
             // 
-            this.metroComboBox2.FormattingEnabled = true;
-            this.metroComboBox2.ItemHeight = 23;
-            this.metroComboBox2.Location = new System.Drawing.Point(10, 230);
-            this.metroComboBox2.Name = "metroComboBox2";
-            this.metroComboBox2.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox2.TabIndex = 8;
-            this.metroComboBox2.UseSelectable = true;
+            this.mtSua.ActiveControl = null;
+            this.mtSua.Location = new System.Drawing.Point(751, 219);
+            this.mtSua.Name = "mtSua";
+            this.mtSua.Size = new System.Drawing.Size(84, 43);
+            this.mtSua.Style = MetroFramework.MetroColorStyle.Silver;
+            this.mtSua.TabIndex = 7;
+            this.mtSua.Text = "Sửa";
+            this.mtSua.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.mtSua.UseSelectable = true;
+            this.mtSua.Click += new System.EventHandler(this.mtSua_Click);
             // 
-            // metroTextBox5
+            // cmbCate
+            // 
+            this.cmbCate.FormattingEnabled = true;
+            this.cmbCate.ItemHeight = 23;
+            this.cmbCate.Location = new System.Drawing.Point(165, 230);
+            this.cmbCate.Name = "cmbCate";
+            this.cmbCate.Size = new System.Drawing.Size(121, 29);
+            this.cmbCate.TabIndex = 8;
+            this.cmbCate.UseSelectable = true;
+            // 
+            // txtSearch
             // 
             // 
             // 
             // 
-            this.metroTextBox5.CustomButton.Image = null;
-            this.metroTextBox5.CustomButton.Location = new System.Drawing.Point(109, 1);
-            this.metroTextBox5.CustomButton.Name = "";
-            this.metroTextBox5.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.metroTextBox5.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTextBox5.CustomButton.TabIndex = 1;
-            this.metroTextBox5.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTextBox5.CustomButton.UseSelectable = true;
-            this.metroTextBox5.CustomButton.Visible = false;
-            this.metroTextBox5.Lines = new string[0];
-            this.metroTextBox5.Location = new System.Drawing.Point(162, 236);
-            this.metroTextBox5.MaxLength = 32767;
-            this.metroTextBox5.Name = "metroTextBox5";
-            this.metroTextBox5.PasswordChar = '\0';
-            this.metroTextBox5.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.metroTextBox5.SelectedText = "";
-            this.metroTextBox5.SelectionLength = 0;
-            this.metroTextBox5.SelectionStart = 0;
-            this.metroTextBox5.ShortcutsEnabled = true;
-            this.metroTextBox5.Size = new System.Drawing.Size(131, 23);
-            this.metroTextBox5.TabIndex = 9;
-            this.metroTextBox5.UseSelectable = true;
-            this.metroTextBox5.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.metroTextBox5.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtSearch.CustomButton.Image = null;
+            this.txtSearch.CustomButton.Location = new System.Drawing.Point(109, 1);
+            this.txtSearch.CustomButton.Name = "";
+            this.txtSearch.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtSearch.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtSearch.CustomButton.TabIndex = 1;
+            this.txtSearch.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtSearch.CustomButton.UseSelectable = true;
+            this.txtSearch.CustomButton.Visible = false;
+            this.txtSearch.Lines = new string[0];
+            this.txtSearch.Location = new System.Drawing.Point(10, 230);
+            this.txtSearch.MaxLength = 32767;
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.PasswordChar = '\0';
+            this.txtSearch.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtSearch.SelectedText = "";
+            this.txtSearch.SelectionLength = 0;
+            this.txtSearch.SelectionStart = 0;
+            this.txtSearch.ShortcutsEnabled = true;
+            this.txtSearch.Size = new System.Drawing.Size(131, 23);
+            this.txtSearch.TabIndex = 9;
+            this.txtSearch.UseSelectable = true;
+            this.txtSearch.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtSearch.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // mbtnSearch
             // 
-            this.mbtnSearch.Location = new System.Drawing.Point(317, 236);
+            this.mbtnSearch.Location = new System.Drawing.Point(303, 230);
             this.mbtnSearch.Name = "mbtnSearch";
             this.mbtnSearch.Size = new System.Drawing.Size(75, 23);
             this.mbtnSearch.TabIndex = 10;
             this.mbtnSearch.Text = "Tìm kiếm";
             this.mbtnSearch.UseSelectable = true;
+            this.mbtnSearch.Click += new System.EventHandler(this.mbtnSearch_Click);
             // 
             // frmKhachHang
             // 
@@ -543,11 +586,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(847, 441);
             this.Controls.Add(this.mbtnSearch);
-            this.Controls.Add(this.metroTextBox5);
-            this.Controls.Add(this.metroComboBox2);
-            this.Controls.Add(this.metroTile3);
-            this.Controls.Add(this.metroTile2);
-            this.Controls.Add(this.metroTile1);
+            this.Controls.Add(this.txtSearch);
+            this.Controls.Add(this.cmbCate);
+            this.Controls.Add(this.mtSua);
+            this.Controls.Add(this.mtXoa);
+            this.Controls.Add(this.mtThem);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmKhachHang";
@@ -557,8 +600,9 @@
             this.Load += new System.EventHandler(this.frmKhachHang_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.khachHangBindingSource)).EndInit();
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvKhachHang)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -566,36 +610,38 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private MetroFramework.Controls.MetroTextBox metroTextBox1;
+        private MetroFramework.Controls.MetroTextBox txtMaKhachHang;
         private MetroFramework.Controls.MetroLabel metroLabel6;
         private MetroFramework.Controls.MetroLabel metroLabel5;
         private MetroFramework.Controls.MetroLabel metroLabel4;
         private MetroFramework.Controls.MetroLabel metroLabel3;
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private MetroFramework.Controls.MetroLabel metroLabel1;
-        private MetroFramework.Controls.MetroTextBox metroTextBox4;
-        private MetroFramework.Controls.MetroTextBox metroTextBox3;
-        private MetroFramework.Controls.MetroTextBox metroTextBox2;
-        private MetroFramework.Controls.MetroDateTime metroDateTime1;
-        private MetroFramework.Controls.MetroComboBox metroComboBox1;
+        private MetroFramework.Controls.MetroTextBox txtDiaChi;
+        private MetroFramework.Controls.MetroTextBox txtCMND;
+        private MetroFramework.Controls.MetroTextBox txtTenKhachHang;
+        private MetroFramework.Controls.MetroDateTime dtpNgaySinh;
+        private MetroFramework.Controls.MetroComboBox cmbGioiTinh;
         private System.Windows.Forms.GroupBox groupBox2;
-        private MetroFramework.Controls.MetroGrid metroGrid1;
-        private MetroFramework.Controls.MetroTile metroTile1;
-        private MetroFramework.Controls.MetroTile metroTile2;
-        private MetroFramework.Controls.MetroTile metroTile3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private MetroFramework.Controls.MetroComboBox metroComboBox2;
-        private MetroFramework.Controls.MetroTextBox metroTextBox5;
+        private MetroFramework.Controls.MetroGrid dgvKhachHang;
+        private MetroFramework.Controls.MetroTile mtThem;
+        private MetroFramework.Controls.MetroTile mtXoa;
+        private MetroFramework.Controls.MetroTile mtSua;
+        private MetroFramework.Controls.MetroComboBox cmbCate;
+        private MetroFramework.Controls.MetroTextBox txtSearch;
         private MetroFramework.Controls.MetroButton mbtnSearch;
-        private MetroFramework.Controls.MetroTextBox metroTextBox6;
+        private MetroFramework.Controls.MetroTextBox txtSDT;
         private MetroFramework.Controls.MetroLabel metroLabel7;
+        private System.Windows.Forms.BindingSource khachHangBindingSource;
+        private System.Windows.Forms.DataGridViewTextBoxColumn maKHDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tenKHDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cmndDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sDTDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn gioiTinhDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ngaySinhDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn diaChiDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn diemTichLuyDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn loaiTheDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tinhTrangDataGridViewTextBoxColumn;
     }
 }

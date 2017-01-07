@@ -46,8 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HangHoaRepo.cs" />
+    <Compile Include="HoaDonRepo.cs" />
     <Compile Include="IHangHoaRepo.cs" />
+    <Compile Include="IHoaDonRepo.cs" />
+    <Compile Include="IKhachHangRepo.cs" />
     <Compile Include="INhanVienRepo.cs" />
+    <Compile Include="KhachHangRepo.cs" />
     <Compile Include="NhanVienRepo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
